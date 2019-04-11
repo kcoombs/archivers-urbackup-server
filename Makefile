@@ -1,7 +1,7 @@
-# $FreeBSD: head/archivers/urbackup-server/Makefile 492028 2019-02-03 09:07:32Z pi $
+# $FreeBSD$
 
 PORTNAME=	urbackup-server
-DISTVERSION=	2.3.7
+DISTVERSION=	2.3.8
 CATEGORIES=	archivers
 MASTER_SITES=	https://hndl.urbackup.org/Server/${DISTVERSION}/
 
