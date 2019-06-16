@@ -1,9 +1,11 @@
-# $FreeBSD$
+# $FreeBSD: head/archivers/urbackup-server/Makefile 498604 2019-04-10 21:25:35Z swills $
 
 PORTNAME=	urbackup-server
-DISTVERSION=	2.3.8
+DISTVERSION=	2.4.2
 CATEGORIES=	archivers
-MASTER_SITES=	https://hndl.urbackup.org/Server/${DISTVERSION}/
+#MASTER_SITES=	https://hndl.urbackup.org/Server/${DISTVERSION}/
+MASTER_SITES=	http://beta.urbackup.org/Server/2.4.2%20beta/
+WRKSRC=		${WRKDIR}/${PORTNAME}-${DISTVERSION}.0
 
 MAINTAINER=	freebsd@coombscloud.com
 COMMENT=	Server component of the UrBackup backup system
